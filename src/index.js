@@ -2,24 +2,14 @@ import stylesheet from "./styles.css";
 import menu from "./menu.js";
 import about from "./about.js";
 import image from "./restaurant.jpg";
-
-
+import home from "./home.js";
 
 const homeBtn = document.querySelector(".home");
 const menuBtn = document.querySelector(".menu");
 const aboutBtn = document.querySelector(".about");
 
-function homepage() {
-  const title = document.createElement("h1");
-  const main = document.getElementById("content");
-  main.innerHTML = "";
+home();
 
-  title.innerHTML = "Welcome To The Best Restaurant";
-
-  main.appendChild(title);
-}
-homepage();
-
-homeBtn.addEventListener("click", homepage);
+homeBtn.addEventListener("click", home);
 menuBtn.addEventListener("click", menu);
 aboutBtn.addEventListener("click", about);
