@@ -1,7 +1,7 @@
 :root {
-  --header: 150px;
+  --header: 80px;
   --footer: 40px;
-  --main: calc(100vh - var(--header) - var(--footer));
+  --main: calc(100vh - var(--header));
 }
 
 body {
@@ -14,32 +14,47 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 header nav {
   height: var(--header);
-  background-color: brown;
+  background-color: rgba(255, 255, 255, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
-#content {
-  height: var(--main);
-  background-color: aqua;
-}
+
 button {
-  font-size: 24px;
-  background-color: blue;
-  color: white;
-  font-weight: bold;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 1);
+
   padding: 8px 15px;
-  border-radius: 8px;
+  border-radius: 18px;
   cursor: pointer;
 }
 footer {
   height: var(--footer);
-  background-color: aquamarine;
+  margin-top: auto;
+}
+h1 {
+  -webkit-text-stroke: 2px black;
   display: flex;
+  align-items: center;
+  flex: 1;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+#content {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url("./restaurant.jpg");
+  background-size: cover;
+  background-position: center;
+  height: var(--main);
+
 }
