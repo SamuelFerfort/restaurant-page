@@ -1,0 +1,45 @@
+:root {
+  --header: 150px;
+  --footer: 40px;
+  --main: calc(100vh - var(--header) - var(--footer));
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  height: var(--header);
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#content {
+  height: var(--main);
+  background-color: aqua;
+}
+button {
+  font-size: 24px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+footer {
+  height: var(--footer);
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
