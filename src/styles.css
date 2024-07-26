@@ -1,5 +1,5 @@
 :root {
-  --header: 80px;
+  --header: 65px;
   --footer: 40px;
   --main: calc(100vh - var(--header));
 }
