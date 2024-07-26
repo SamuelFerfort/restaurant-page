@@ -1,4 +1,4 @@
-import image from "./assets/restaurant.webp";
+import image from "../assets/restaurant.webp";
 
 function homepage() {
   const title = document.createElement("h1");
