@@ -1,4 +1,4 @@
-import image from "./restaurant.jpg";
+import image from "./assets/restaurant.webp";
 
 function homepage() {
   const title = document.createElement("h1");
@@ -11,3 +11,4 @@ function homepage() {
 }
 
 export default homepage;
+  

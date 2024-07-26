@@ -1,4 +1,4 @@
-import menuImage from "./menu.jpg";
+import menuImage from "./assets/menu.webp";
 
 function menuPage() {
   const title = document.createElement("h1");

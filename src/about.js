@@ -1,4 +1,4 @@
-import aboutImage from "./about1.jpg";
+import aboutImage from "./assets/about1.webp";
 
 function aboutPage() {
   const title = document.createElement("h1");

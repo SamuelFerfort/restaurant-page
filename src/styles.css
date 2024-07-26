@@ -8,13 +8,13 @@
   position: absolute;
   top: -9999px;
   left: -9999px;
-  background-image: url("./about1.jpg"); 
+  background-image: url("./assets/about1.webp"); 
 }
 .preload-image2{
   position: absolute;
   top: -9999px;
   left: -9999px;
-  background-image: url("./menu.jpg"); 
+  background-image: url("./assets/menu.webp"); 
 }
 
 
@@ -66,7 +66,7 @@ h1 {
   flex-direction: column;
 
   align-items: center;
-  background: url("./restaurant.jpg");
+  background: url("./assets/restaurant.webp");
   background-size: cover;
   background-position: center;
   height: var(--main);
